@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+  transition: .5s all;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 600;
+}
+
+$blue: #0275B1;
+$black: #181818;
+$grey: #8C8C8C;
+
+@mixin text ($col,$fs,$fw,$lh){
+  font-size: $fs;
+  font-weight: $fw;
+  @if $lh >0 {
+    line-height: $lh ;
+  }
+  color: $col
+}
+
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+button{
+  cursor: pointer;
+}
+
+@import "header";
+@import "switchlanguage";
+@import "form";

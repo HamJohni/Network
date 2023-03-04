@@ -10,33 +10,74 @@
   transition: .5s all;
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-weight: 600;
+  font-weight: 500;
 }
 
-$blue: #0275B1;
-$black: #181818;
-$grey: #8C8C8C;
+body{
+  background: #141414 !important;
+}
 
-@mixin text ($col,$fs,$fw,$lh){
-  font-size: $fs;
-  font-weight: $fw;
-  @if $lh >0 {
-    line-height: $lh ;
-  }
-  color: $col
+//$blue: #0275B1;
+//$black: #181818;
+//$grey: #8C8C8C;
+//
+//@mixin text ($col,$fs,$fw,$lh){
+//  font-size: $fs;
+//  font-weight: $fw;
+//  @if $lh >0 {
+//    line-height: $lh ;
+//  }
+//  color: $col
+//}
+
+.content{
+  display: flex;
+  column-gap: 10px;
+  padding: 15px 0 ;
 }
 
 
 .container{
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.middleBox{
+  padding: 20px 20px;
+  width:65%;
+  background:#222222;
+  border-radius: 10px;
+  border: 2px solid #424242;
+}
+
+.rightBox{
+  width: 38%;
 }
 
 button{
   cursor: pointer;
 }
 
+.blueLink{
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  color: #71aaeb;
+  cursor: pointer;
+
+  &:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
+}
+
 @import "header";
 @import "switchlanguage";
 @import "form";
+@import "aside";
+@import "friends";
+@import "find";
+@import "profile";
+@import "notifications";
+@import "photos";

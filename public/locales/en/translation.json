@@ -1,5 +1,93 @@
 {
+  "aside": {
+    "myProfile":"My profile",
+    "friends": "Friends"
+  },
+
+  "right": {
+    "myFriends": "My friends",
+    "request": "Friend Requests",
+    "searchFriends": "Find friends"
+  },
+
   "header": {
-    "field": "Search "
+    "field": "Search",
+    "safe": "Protect your account",
+    "options": "Settings",
+    "face": "Theme",
+    "help": "Help",
+    "out": "Sing out"
+  },
+
+  "form": {
+    "title": "Registration",
+    "title2": "Authorization",
+    "name": "Name :",
+    "namePLace": "Name",
+    "surname": "Surname :",
+    "surnamePLace": "Surname",
+    "birthday": "Birthday :",
+    "gender": "Gender :",
+    "man": "Male",
+    "woman": "Female",
+    "city": "City",
+    "cityPLace": "City",
+    "tel": "Phone number :",
+    "telPLace": "Phone number",
+    "login": "Login",
+    "loginPLace": "Login",
+    "password": "Password",
+    "passwordPLace": "Password",
+    "confirm": "Confirm password :",
+    "confirmPLace": "Confirm password",
+    "sign_up": "Sign up",
+    "sign_in": "Sign in",
+    "link": "Already registered ?",
+    "link1": "Don't have an account yet ?",
+    "img": "Upload picture :",
+    "imgDel": "Delete picture",
+
+    "nameEr": "Name is required",
+    "max": "Maximum length 15 symbol",
+    "min": "Minimum length 3 symbol",
+    "surnameEr": "Surname is required",
+    "dateEr": "Date is required",
+    "genderEr": "Select gender",
+    "cityEr": "City is required",
+    "telEr": "Phone is required",
+    "telPast": "The number is incorrectly",
+    "loginEr": "Login is required",
+    "passwordEr": "Password is required",
+    "passwordTrue": "Password need contain length 6 symbol, capital letter, number",
+    "confirmEr": "Confirm your password",
+    "confirmFalse": "Password mismatch"
+  },
+
+  "myProfile": {
+    "editFace": "Change cover",
+    "delete": "Delete",
+    "upload" : "Upload image",
+    "infoMe": "Add information about yourself",
+    "editProfile": "Edit profile"
+  },
+
+  "friends": {
+    "allFriends": "All friends:",
+    "online": "Friends online:",
+    "find": "Find friends",
+    "write":"Write message",
+    "call": " Call",
+    "maybe": "People you may know",
+    "search": "Search friends",
+    "options": "Parameters"
+  },
+
+  "find": {
+    "search": "Find friends",
+    "settings": "Advanced search"
+  },
+
+  "people": {
+    "other": "mutual friends"
   }
 }
